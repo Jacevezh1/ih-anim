@@ -10,7 +10,7 @@ const router = express.Router()
 
 // Llamar all archivo controler y sus funciones
 const animeController = require('./../controllers/animes.controller')
-console.log(animeController) // Me imprime la funcion Async creada en mi animeController
+
 
 
 // 2. RUTAS (Funciones para cada vez que se llamen)

@@ -135,7 +135,7 @@ mongoose.connect(process.env.MONGODB)
 // 4. POBLAR LA BASE DE DATOS
 
 // Funcion para generar mis animes
-const generarAnimes = async() => {
+const generateAnimes = async() => {
 
     await Anime.create(animes) // Crear todos los animes, del array que le pase.
     console.log("Base de datos poblada con anime")
@@ -148,5 +148,5 @@ const generarAnimes = async() => {
 
 // 5. INVOCAR LA FUNCION
 
-generarAnimes()
+generateAnimes()
 

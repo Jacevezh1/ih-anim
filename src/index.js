@@ -21,7 +21,7 @@ const bodyParser = require('body-parser') // Leer datos enviados x clinete por m
 app.use(express.static(path.join(__dirname, 'public')))
 
 // Utilizar el body-paser
-app.use(bodyParser.urlencoded( {extended: true}))
+app.use(bodyParser.urlencoded({extended: true}))
 
 
 // Configuraciones
